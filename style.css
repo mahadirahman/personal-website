@@ -16,7 +16,7 @@ h2{
 .sec-bg{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
-    height: 850px;
+    height: 800px;
     width: 100%;
     background-size: cover;
 }
@@ -36,6 +36,10 @@ h2{
     float: left;
     padding-top: 10%;
 }
+.half-width2 img {
+    width: 100%;
+    height: 500px;
+}
 .half-width3{
     width: 40%;
     float:left;
@@ -45,18 +49,26 @@ h2{
 }
 .half-width3 img {
     width: 100%;
+    height: 600px;
 }
 .half-width p {
     padding-bottom: 30px;
 }
-.half-width2 img {
-    width: 100%;
-}
+
 .sty-btn{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px ;
     background-image: linear-gradient(45deg ,palevioletred ,rgb(228, 25, 126));
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sty-btn:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px ;
+    background-image: linear-gradient(-45deg ,palevioletred ,rgb(228, 25, 126));
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -73,7 +85,7 @@ h2{
     position: absolute;
     top: 50%;
     margin-left: 5%;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 .half-width3 p {
     padding-bottom: 30px;
