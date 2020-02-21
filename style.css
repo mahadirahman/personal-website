@@ -148,3 +148,13 @@ h5{
 .msg-content p{
     padding-bottom: 15px;
 }
+footer p {
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
