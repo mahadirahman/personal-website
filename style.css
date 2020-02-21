@@ -16,7 +16,7 @@ h2{
 .sec-bg{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
-    height: 600px;
+    height: 850px;
     width: 100%;
     background-size: cover;
 }
@@ -26,10 +26,15 @@ h2{
     padding-top: 10%;
     padding-left: 8%;
 }
+.half-width2{
+    width: 40%;
+    float: left;
+    padding-top: 10%;
+}
 .half-width p {
     padding-bottom: 30px;
 }
-.half-width img {
+.half-width2 img {
     width: 100%;
 }
 .sty-btn{
